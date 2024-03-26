@@ -11,3 +11,12 @@ php artisan db:seed
 npm i
 npm run dev
 ```
+4. As default in laravel 10, `npm run dev`, it will run `php artisan serve`, too.
+
+### For testing CRUD operations run:
+```shell
+php artisan test
+```
+
+
+
