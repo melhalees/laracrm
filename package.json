@@ -6,14 +6,26 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "autoprefixer": "^10.4.19",
         "axios": "^1.6.4",
+        "bootstrap": "^5.2.3",
         "git-cz": "^4.9.0",
+        "laravel-datatables-vite": "^0.5.2",
         "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.38",
+        "sass": "^1.56.1",
         "vite": "^5.0.0"
     },
     "config": {
         "commitizen": {
             "path": "./node_modules/git-cz"
         }
+    },
+    "dependencies": {
+        "build": "^0.1.4",
+        "npm": "^10.5.0",
+        "run": "^1.5.0",
+        "toastr": "^2.1.4"
     }
 }
